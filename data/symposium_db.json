@@ -1,0 +1,636 @@
+{
+  "settings": {
+    "symposiumTitle": "EVITRON 2K26",
+    "subTitle": "National Level Technical Symposium",
+    "department": "Department of Electronics and Communication Engineering",
+    "college": "Mahendra Engineering College (Autonomous)",
+    "associations": "VELOCITY & IEEE",
+    "eventDate": "08/10/2026",
+    "countdownTarget": "2026-10-08T09:00:00",
+    "registrationDeadline": "01/10/2026",
+    "paperSubmissionDeadline": "27/09/2026",
+    "isRegistrationOpen": true,
+    "closedReason": "Registrations are currently closed. Please contact event coordinators for further inquiries.",
+    "upiId": "evitron26@mec",
+    "upiPayeeName": "EVITRON 2K26 - MEC ECE",
+    "upiQrImageUrl": "",
+    "driveUploadUrl": "https://drive.google.com/drive/folders/1c4zL3RdaMjO4yyZ2U8BNySsx0FhorA7i?usp=sharing",
+    "contactEmail": "evitron26@gmail.com",
+    "instagramHandle": "velocityecemec",
+    "venue": "Mahendhirapuri, Mallasamudram (M), Namakkal (Dt), Tamil Nadu - 637 503",
+    "announcementText": "Registrations are now live! Paper abstract submission deadline is 27/09/2026. Cash prizes, welcome kits, food and refreshments included.",
+    "announcementActive": true,
+    "feePerPerson": 350,
+    "appEnv": "development"
+  },
+  "events": [
+    {
+      "id": "ws-silicon-2-gds",
+      "slug": "silicon-2-gds",
+      "title": "SILICON 2 GDS",
+      "tagline": "VLSI Design Using Cadence",
+      "category": "workshops",
+      "description": "Hands-on workshop exploring the complete ASIC design flow from RTL synthesis to GDSII layout generation using industry-standard Cadence EDA tools.",
+      "venue": "VLSI Design Lab, Department of ECE",
+      "time": "09:30 AM - 04:00 PM",
+      "date": "08/10/2026",
+      "eligibility": "All Engineering UG / PG students and Diploma scholars from ECE, EEE, EIE, and related branches.",
+      "teamSize": 1,
+      "teamSizeLabel": "Individual (1 Participant)",
+      "feePerPerson": 350,
+      "rules": [
+        "Participants must bring their college ID card for verification.",
+        "Participants are advised to bring their own laptops with charger; lab systems will also be provided on availability.",
+        "Strict attendance during both morning and afternoon sessions is mandatory for certificate entitlement.",
+        "[EVENT RULES WILL BE UPDATED]"
+      ],
+      "procedure": [
+        "Session 1: Introduction to RTL design, Verilog coding, and simulation verification.",
+        "Session 2: Synthesis with Cadence Genus, timing analysis, and constraints.",
+        "Session 3: Physical design, Floorplanning, Placement & Routing with Innovus.",
+        "Session 4: DRC, LVS checks and final GDSII export."
+      ],
+      "perks": [
+        "Welcome Kit & Notepad",
+        "Delicious Food & Refreshments",
+        "Hands-on EDA Tool Lab Access",
+        "Authorized Participation Certificate"
+      ],
+      "outcomes": [
+        "Understand complete ASIC front-end to back-end flow.",
+        "Familiarity with industry-grade Cadence digital implementation toolchain."
+      ],
+      "certificates": "Government-recognized Hardcopy Certificate of Workshop Participation will be awarded at the valedictory session.",
+      "importantInstructions": [
+        "Reporting time at registration desk is 08:30 AM sharp.",
+        "Workshop participants cannot take part in other technical/non-technical events due to parallel full-day schedule."
+      ],
+      "faqs": [
+        {
+          "q": "Do I need prior experience with Cadence tools?",
+          "a": "Basic knowledge of digital logic and Verilog is sufficient. The resource persons will guide you through the tool step-by-step."
+        },
+        {
+          "q": "Can I also attend technical events if I join this workshop?",
+          "a": "No. Workshops run parallel full-day sessions, so workshop participants are restricted to this single workshop."
+        }
+      ],
+      "coordinatorName": "[COORDINATOR NAME]",
+      "coordinatorPhone": "[COORDINATOR PHONE]",
+      "coordinatorEmail": "evitron26@gmail.com",
+      "isActive": true
+    },
+    {
+      "id": "ws-embedded-system",
+      "slug": "embedded-system",
+      "title": "Embedded System",
+      "tagline": "Hands-on Embedded Systems & Microcontrollers",
+      "category": "workshops",
+      "description": "Comprehensive practical training on modern embedded architecture, peripheral interfacing, sensor integration, and real-time firmware development.",
+      "venue": "Embedded Systems Lab, ECE Block",
+      "time": "09:30 AM - 04:00 PM",
+      "date": "08/10/2026",
+      "eligibility": "Engineering & Diploma students interested in Embedded hardware and firmware.",
+      "teamSize": 1,
+      "teamSizeLabel": "Individual (1 Participant)",
+      "feePerPerson": 350,
+      "rules": [
+        "College ID card is compulsory.",
+        "Hardware kits will be provided for hands-on sessions during the workshop hours.",
+        "[EVENT RULES WILL BE UPDATED]"
+      ],
+      "procedure": [
+        "Session 1: Architecture overview of ARM Cortex & RISC-V microcontrollers.",
+        "Session 2: GPIO, Timers, ADC, and Interrupt handling in C.",
+        "Session 3: Interfacing communication protocols (I2C, SPI, UART).",
+        "Session 4: Mini practical project demonstration."
+      ],
+      "perks": [
+        "Welcome Kit & Conference Materials",
+        "Lunch & Refreshments",
+        "Hardware Development Kit Access",
+        "Official Certificate of Completion"
+      ],
+      "outcomes": [
+        "Solid grasp of real-time embedded programming and hardware-software co-design."
+      ],
+      "certificates": "Official Certificate of Workshop Completion from Mahendra Engineering College & IEEE.",
+      "importantInstructions": [
+        "Bring your own laptop with Keil / Arduino IDE pre-installed if possible."
+      ],
+      "faqs": [
+        {
+          "q": "Will hardware kits be provided?",
+          "a": "Yes, demonstration boards and sensor kits will be provided for lab exercises."
+        }
+      ],
+      "coordinatorName": "[COORDINATOR NAME]",
+      "coordinatorPhone": "[COORDINATOR PHONE]",
+      "coordinatorEmail": "evitron26@gmail.com",
+      "isActive": true
+    },
+    {
+      "id": "ws-virtual-instrumentation",
+      "slug": "virtual-instrumentation",
+      "title": "Virtual Instrumentation",
+      "tagline": "LabVIEW Workshop & Data Acquisition",
+      "category": "workshops",
+      "description": "Practical training on Graphical System Design, Virtual Instrumentation principles, signal acquisition, and automated test bench design using LabVIEW.",
+      "venue": "DSP & Virtual Instrumentation Lab, ECE Block",
+      "time": "09:30 AM - 04:00 PM",
+      "date": "08/10/2026",
+      "eligibility": "All Engineering UG / PG students of Circuit branches (ECE, EEE, EIE, Mechatronics).",
+      "teamSize": 1,
+      "teamSizeLabel": "Individual (1 Participant)",
+      "feePerPerson": 350,
+      "rules": [
+        "Valid college identification required.",
+        "Participants must actively complete all four module exercises to receive certificates.",
+        "[EVENT RULES WILL BE UPDATED]"
+      ],
+      "procedure": [
+        "Module 1: Graphical programming fundamentals in LabVIEW (VIs, Front Panel, Block Diagram).",
+        "Module 2: Loops, Structures, Arrays, and Clusters.",
+        "Module 3: Data Acquisition (DAQ) hardware interfacing and signal conditioning.",
+        "Module 4: Real-time waveform display and instrument control."
+      ],
+      "perks": [
+        "Welcome Kit & Notepad",
+        "Food & Refreshments",
+        "LabVIEW Hands-on Lab Environment",
+        "Accredited Certificate"
+      ],
+      "outcomes": [
+        "Proficiency in building automated measurement and control Virtual Instruments."
+      ],
+      "certificates": "Accredited Hardcopy Workshop Certificate issued by ECE Department & VELOCITY Association.",
+      "importantInstructions": [
+        "Full attendance is required across both sessions."
+      ],
+      "faqs": [
+        {
+          "q": "Are computer systems provided?",
+          "a": "Yes, configured desktop systems with LabVIEW are provided in the department laboratory."
+        }
+      ],
+      "coordinatorName": "[COORDINATOR NAME]",
+      "coordinatorPhone": "[COORDINATOR PHONE]",
+      "coordinatorEmail": "evitron26@gmail.com",
+      "isActive": true
+    },
+    {
+      "id": "tech-techpaper",
+      "slug": "techpaper",
+      "title": "TECHPAPER",
+      "tagline": "Paper Presentation",
+      "category": "technical",
+      "description": "Platform to present innovative research papers in emerging domains including VLSI, Embedded Systems, IoT, Wireless Communication, AI/ML in signal processing, and Renewable Energy.",
+      "venue": "Seminar Hall 1, ECE Block",
+      "time": "10:00 AM - 01:00 PM",
+      "date": "08/10/2026",
+      "eligibility": "UG / PG Engineering students. Teams must contain exactly 3 members.",
+      "teamSize": 3,
+      "teamSizeLabel": "Team of Exactly 3 Participants",
+      "feePerPerson": 350,
+      "rules": [
+        "Every team must have exactly 3 participants (1 Team Leader + 2 Team Members).",
+        "Paper abstract must be submitted on or before 27/09/2026 via email to evitron26@gmail.com.",
+        "Presentation time: 8 minutes for presentation + 2 minutes for Q&A by jury.",
+        "Slides should not exceed 15 slides. Standard IEEE paper format preferred.",
+        "[EVENT RULES WILL BE UPDATED]"
+      ],
+      "procedure": [
+        "Step 1: Submit abstract by 27/09/2026.",
+        "Step 2: Intimation of selected papers will be sent via email.",
+        "Step 3: Present before the panel on event day 08/10/2026.",
+        "Step 4: Evaluation based on novelty, technical depth, and presentation clarity."
+      ],
+      "perks": [
+        "Attractive Cash Prizes for Top 3 Teams",
+        "Welcome Kits & Mementos",
+        "Delicious Lunch & Snacks",
+        "Presentation Certificates to all team members"
+      ],
+      "outcomes": [
+        "Peer-reviewed feedback from veteran academicians and industry researchers."
+      ],
+      "certificates": "Cash Prize with Winner Shields for Top Teams; Certificate of Presentation for all participants.",
+      "importantInstructions": [
+        "Carry two printed copies of your full manuscript and softcopy in a pen drive."
+      ],
+      "faqs": [
+        {
+          "q": "Can members be from different colleges?",
+          "a": "Yes, inter-college team members are allowed, but team size must be exactly 3 participants."
+        },
+        {
+          "q": "What is the abstract deadline?",
+          "a": "Abstract submission deadline is 27/09/2026."
+        }
+      ],
+      "coordinatorName": "[COORDINATOR NAME]",
+      "coordinatorPhone": "[COORDINATOR PHONE]",
+      "coordinatorEmail": "evitron26@gmail.com",
+      "isActive": true
+    },
+    {
+      "id": "tech-evolvex",
+      "slug": "evolvex",
+      "title": "EVOLVEX",
+      "tagline": "Project Presentation",
+      "category": "technical",
+      "description": "Showcase your working engineering projects, prototypes, IoT gadgets, and embedded hardware solutions to eminent judges and innovators.",
+      "venue": "Circuit & Systems Exhibition Hall",
+      "time": "10:00 AM - 01:30 PM",
+      "date": "08/10/2026",
+      "eligibility": "Engineering UG/PG students. Exactly 3 members per team.",
+      "teamSize": 3,
+      "teamSizeLabel": "Team of Exactly 3 Participants",
+      "feePerPerson": 350,
+      "rules": [
+        "Every team must consist of exactly 3 members.",
+        "Teams must bring their working prototype/hardware or software simulation demonstration.",
+        "Standard 230V AC power supply and test benches will be provided.",
+        "[EVENT RULES WILL BE UPDATED]"
+      ],
+      "procedure": [
+        "Display project hardware on assigned project booth.",
+        "Live demonstration to the judging committee followed by technical cross-examination."
+      ],
+      "perks": [
+        "Substantial Cash Prizes & Innovation Trophies",
+        "Welcome Kit & Refreshments",
+        "Incubation & Mentorship guidance for standout projects",
+        "Project Presentation Certificates"
+      ],
+      "outcomes": [
+        "Validate prototype viability and connect with innovation leaders."
+      ],
+      "certificates": "Winner Cash Prize + Certificate of Excellence; Participation Certificates for all registered members.",
+      "importantInstructions": [
+        "Bring all required extension cords, batteries, and connectors for your setup."
+      ],
+      "faqs": [
+        {
+          "q": "Will power supply be arranged?",
+          "a": "Yes, 230V AC standard sockets are available at the demonstration stalls."
+        }
+      ],
+      "coordinatorName": "[COORDINATOR NAME]",
+      "coordinatorPhone": "[COORDINATOR PHONE]",
+      "coordinatorEmail": "evitron26@gmail.com",
+      "isActive": true
+    },
+    {
+      "id": "tech-tracktron",
+      "slug": "tracktron",
+      "title": "TRACKTRON",
+      "tagline": "Line Follower Race",
+      "category": "technical",
+      "description": "High-speed autonomous line follower robotics challenge. Build and tune your robot to navigate tight curves, intersections, and speed checkpoints in record time.",
+      "venue": "Indoor Robotics Arena, Mechanical/ECE Quadrangle",
+      "time": "11:00 AM - 02:00 PM",
+      "date": "08/10/2026",
+      "eligibility": "Open to all Engineering students. Team size must be exactly 3 participants.",
+      "teamSize": 3,
+      "teamSizeLabel": "Team of Exactly 3 Participants",
+      "feePerPerson": 350,
+      "rules": [
+        "Team must have exactly 3 members.",
+        "The robot must be completely autonomous; no manual remote controls allowed.",
+        "Arena will have black lines (3cm width) on white background with 90-degree bends and speed sections.",
+        "Max dimensions: 25cm x 25cm x 20cm; max weight: 3kg.",
+        "[EVENT RULES WILL BE UPDATED]"
+      ],
+      "procedure": [
+        "Round 1: Calibration and qualifying time trial.",
+        "Round 2: Knockout obstacle track with checkpoints.",
+        "Fastest clean run with least penalties wins."
+      ],
+      "perks": [
+        "Championship Cash Prize & Robotics Trophy",
+        "Food & Hospitality Kits",
+        "Robotics Performance Certificates"
+      ],
+      "outcomes": [
+        "Gain real-time robotics calibration, PID tuning, and sensor optimization skills."
+      ],
+      "certificates": "Winner Cash Awards + Medals; Certificates of Technical Participation.",
+      "importantInstructions": [
+        "Carry spare batteries and soldering kit if required for pit-lane repairs."
+      ],
+      "faqs": [
+        {
+          "q": "Can we modify robot code between runs?",
+          "a": "Yes, during designated pit time before your official turn."
+        }
+      ],
+      "coordinatorName": "[COORDINATOR NAME]",
+      "coordinatorPhone": "[COORDINATOR PHONE]",
+      "coordinatorEmail": "evitron26@gmail.com",
+      "isActive": true
+    },
+    {
+      "id": "non-mind-maze",
+      "slug": "mind-maze",
+      "title": "MIND MAZE",
+      "tagline": "Aptitude, Riddles & Logic Quest",
+      "category": "non-technical",
+      "description": "Engaging brain-teaser showdown testing analytical speed, lateral thinking, cryptography, and logic puzzles under time pressure.",
+      "venue": "Hall 204, Academic Block",
+      "time": "02:00 PM - 03:30 PM",
+      "date": "08/10/2026",
+      "eligibility": "Must be registered for at least one Technical Event with your 3-member team.",
+      "teamSize": 3,
+      "teamSizeLabel": "Same 3-Member Team",
+      "feePerPerson": 0,
+      "rules": [
+        "Available only to participants who registered for a technical event.",
+        "The 3-member team competes together.",
+        "Use of mobile phones or internet search during the rounds is strictly prohibited.",
+        "[EVENT RULES WILL BE UPDATED]"
+      ],
+      "procedure": [
+        "Round 1: Speed aptitude & visual pattern decoders (Buzzer round).",
+        "Round 2: Cipher decoding and mystery puzzle solving.",
+        "Round 3: Rapid-fire head-to-head finale."
+      ],
+      "perks": [
+        "Exciting Cash Prizes & Goodies",
+        "Official Winner Certificates",
+        "Fun & Refreshments"
+      ],
+      "outcomes": [
+        "Sharpen rapid problem-solving and team collaboration skills."
+      ],
+      "certificates": "Winner Shields & Certificates of Achievement.",
+      "importantInstructions": [
+        "Report to the venue 15 minutes prior to scheduled start."
+      ],
+      "faqs": [
+        {
+          "q": "Can I register for Mind Maze without registering for a technical event?",
+          "a": "No. As per symposium regulations, non-technical events can only be chosen in conjunction with at least one technical event."
+        }
+      ],
+      "coordinatorName": "[COORDINATOR NAME]",
+      "coordinatorPhone": "[COORDINATOR PHONE]",
+      "coordinatorEmail": "evitron26@gmail.com",
+      "isActive": true
+    },
+    {
+      "id": "non-promptify",
+      "slug": "promptify",
+      "title": "PROMPTIFY",
+      "tagline": "AI Prompt Engineering & Creative Challenge",
+      "category": "non-technical",
+      "description": "Put your generative AI skills to the test. Craft precision prompts to generate specific design assets, solve riddles, and produce target imagery.",
+      "venue": "Multimedia Computer Center",
+      "time": "02:00 PM - 03:30 PM",
+      "date": "08/10/2026",
+      "eligibility": "Must be registered for at least one Technical Event with your 3-member team.",
+      "teamSize": 3,
+      "teamSizeLabel": "Same 3-Member Team",
+      "feePerPerson": 0,
+      "rules": [
+        "Available only for technical event registrants.",
+        "Teams will be provided specified challenges and must craft prompts using given AI models.",
+        "[EVENT RULES WILL BE UPDATED]"
+      ],
+      "procedure": [
+        "Challenge 1: Target image recreation through prompt refinement.",
+        "Challenge 2: Creative AI storyboarding and prompt efficiency."
+      ],
+      "perks": [
+        "Cash Prizes for Winners",
+        "Special AI Excellence Badges"
+      ],
+      "outcomes": [
+        "Master prompt engineering and generative workflow heuristics."
+      ],
+      "certificates": "Winner Certificates & Badges.",
+      "importantInstructions": [
+        "Computers with internet access will be provided."
+      ],
+      "faqs": [
+        {
+          "q": "Which AI platforms will be used?",
+          "a": "Standard open/accessible generative interfaces will be provisioned on event day."
+        }
+      ],
+      "coordinatorName": "[COORDINATOR NAME]",
+      "coordinatorPhone": "[COORDINATOR PHONE]",
+      "coordinatorEmail": "evitron26@gmail.com",
+      "isActive": true
+    },
+    {
+      "id": "non-memix",
+      "slug": "memix",
+      "title": "MEMIX",
+      "tagline": "Tech Meme & Creative Media Contest",
+      "category": "non-technical",
+      "description": "Showcase your wit and humor. Design relatable, laugh-out-loud engineering and college life memes based on spontaneous on-spot themes.",
+      "venue": "Seminar Hall 2, ECE Block",
+      "time": "02:00 PM - 03:30 PM",
+      "date": "08/10/2026",
+      "eligibility": "Must be registered for at least one Technical Event with your 3-member team.",
+      "teamSize": 3,
+      "teamSizeLabel": "Same 3-Member Team",
+      "feePerPerson": 0,
+      "rules": [
+        "Available only to technical event participants.",
+        "Content must be respectful, free from vulgarity or hate speech.",
+        "Memes must be original and created during the event time.",
+        "[EVENT RULES WILL BE UPDATED]"
+      ],
+      "procedure": [
+        "Topic release on spot.",
+        "45 minutes design & crafting time.",
+        "Presentation and jury voting."
+      ],
+      "perks": [
+        "Cash Prizes & Viral Creator Awards",
+        "Certificates"
+      ],
+      "outcomes": [
+        "Creative expression and humor in technical culture."
+      ],
+      "certificates": "Winner Shields & Certificates.",
+      "importantInstructions": [
+        "Bring laptops or smartphones with graphic editors."
+      ],
+      "faqs": [
+        {
+          "q": "Can templates be used?",
+          "a": "Standard meme templates are permitted; captions must be 100% original."
+        }
+      ],
+      "coordinatorName": "[COORDINATOR NAME]",
+      "coordinatorPhone": "[COORDINATOR PHONE]",
+      "coordinatorEmail": "evitron26@gmail.com",
+      "isActive": true
+    },
+    {
+      "id": "non-detective-404",
+      "slug": "detective-404",
+      "title": "DETECTIVE 404",
+      "tagline": "Circuit Bug Hunting & Mystery Puzzle",
+      "category": "non-technical",
+      "description": "Step into the shoes of a cyber and hardware detective. Unravel clues, debug sabotaged breadboards, and solve the tech escape mystery.",
+      "venue": "Communications Lab, ECE Block",
+      "time": "02:30 PM - 04:00 PM",
+      "date": "08/10/2026",
+      "eligibility": "Must be registered for at least one Technical Event with your 3-member team.",
+      "teamSize": 3,
+      "teamSizeLabel": "Same 3-Member Team",
+      "feePerPerson": 0,
+      "rules": [
+        "Team must already be enrolled in a technical event.",
+        "Follow clues sequentially; do not damage lab equipment.",
+        "[EVENT RULES WILL BE UPDATED]"
+      ],
+      "procedure": [
+        "Stage 1: Decode cryptographic coordinates on campus.",
+        "Stage 2: Fix deliberate wiring faults on test circuit.",
+        "Stage 3: Unlock final mystery safe."
+      ],
+      "perks": [
+        "Cash Prizes for Top Detectives",
+        "Event Certificates"
+      ],
+      "outcomes": [
+        "Teamwork, diagnostic troubleshooting, and lateral deduction."
+      ],
+      "certificates": "Master Detective Trophy & Certificates of Merit.",
+      "importantInstructions": [
+        "Follow all safety rules in the laboratory arena."
+      ],
+      "faqs": [
+        {
+          "q": "Is it physical or digital?",
+          "a": "It combines both physical lab hunting and digital puzzle decoding!"
+        }
+      ],
+      "coordinatorName": "[COORDINATOR NAME]",
+      "coordinatorPhone": "[COORDINATOR PHONE]",
+      "coordinatorEmail": "evitron26@gmail.com",
+      "isActive": true
+    }
+  ],
+  "registrations": [
+    {
+      "id": "EV26-D2V2EQ",
+      "createdAt": "2026-09-10T16:56:39.274Z",
+      "registrationType": "workshop",
+      "selectedWorkshopId": "ws-embedded",
+      "selectedTechnicalIds": [],
+      "selectedNonTechnicalIds": [],
+      "participants": [
+        {
+          "fullName": "Test Attendee",
+          "email": "test.attendee@example.com",
+          "phone": "9876543210",
+          "college": "MEC College",
+          "department": "ECE",
+          "year": "3rd Year"
+        }
+      ],
+      "teamLeader": {
+        "fullName": "Test Attendee",
+        "email": "test.attendee@example.com",
+        "phone": "9876543210",
+        "college": "MEC College",
+        "department": "ECE",
+        "year": "3rd Year"
+      },
+      "totalAmount": 350,
+      "paymentMethod": "upi",
+      "paymentStatus": "pending_verification",
+      "upiReference": "123456789012",
+      "driveScreenshotSubmitted": true,
+      "attendanceMarked": false
+    },
+    {
+      "id": "EV26-DUNM9Y",
+      "createdAt": "2026-09-10T14:31:24.213Z",
+      "registrationType": "technical",
+      "selectedTechnicalIds": [
+        "tech-evolvex"
+      ],
+      "selectedNonTechnicalIds": [],
+      "participants": [
+        {
+          "fullName": "Anandha Krishnan",
+          "email": "mytseryak27@gmail.com",
+          "phone": "6383109049",
+          "college": "mahendra ",
+          "department": "ECE",
+          "year": "III"
+        },
+        {
+          "fullName": "Anandha ",
+          "email": "mytseryak27@gmail.com",
+          "phone": "06383109049",
+          "college": "MS",
+          "department": "ECE",
+          "year": "II"
+        },
+        {
+          "fullName": "AK",
+          "email": "anandhperumal27@gmail.com",
+          "phone": "6383109049",
+          "college": "Mahendra",
+          "department": "ECE",
+          "year": "II"
+        }
+      ],
+      "teamLeader": {
+        "fullName": "Anandha Krishnan",
+        "email": "mytseryak27@gmail.com",
+        "phone": "6383109049",
+        "college": "mahendra ",
+        "department": "ECE",
+        "year": "III"
+      },
+      "totalAmount": 1050,
+      "paymentMethod": "razorpay",
+      "paymentStatus": "paid",
+      "paymentId": "pay_test_nte2qt0b",
+      "attendanceMarked": false
+    },
+    {
+      "id": "EV26-3KP4J3",
+      "createdAt": "2026-09-10T14:21:02.209Z",
+      "registrationType": "workshop",
+      "selectedWorkshopId": "ws-silicon-2-gds",
+      "selectedTechnicalIds": [],
+      "selectedNonTechnicalIds": [],
+      "participants": [
+        {
+          "fullName": "Kavitha R",
+          "email": "kavitha.ece@example.com",
+          "phone": "9876543210",
+          "college": "Government College of Technology, Coimbatore",
+          "department": "ECE",
+          "year": "Final Year"
+        }
+      ],
+      "teamLeader": {
+        "fullName": "Kavitha R",
+        "email": "kavitha.ece@example.com",
+        "phone": "9876543210",
+        "college": "Government College of Technology, Coimbatore",
+        "department": "ECE",
+        "year": "Final Year"
+      },
+      "totalAmount": 350,
+      "paymentMethod": "upi",
+      "paymentStatus": "pending_verification",
+      "upiReference": "428971039482",
+      "driveScreenshotSubmitted": true,
+      "attendanceMarked": false
+    }
+  ],
+  "adminPasswordHash": "cc545a21a77e6b3aae3db8914a297cc12449a48a26f161bf113d0df752871457",
+  "adminSalt": "evitron26_salt"
+}

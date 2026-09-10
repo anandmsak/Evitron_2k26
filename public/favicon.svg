@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" width="100%" height="100%">
+  <defs>
+    <linearGradient id="chromeRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="30%" stop-color="#FFFFFF" />
+      <stop offset="70%" stop-color="#818CF8" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+
+    <radialGradient id="favReactorCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="15%" stop-color="#67E8F9" />
+      <stop offset="40%" stop-color="#0284C7" />
+      <stop offset="75%" stop-color="#1E1B4B" />
+      <stop offset="100%" stop-color="#0B0F19" />
+    </radialGradient>
+
+    <radialGradient id="favGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00F5FF" stop-opacity="0.9" />
+      <stop offset="35%" stop-color="#0284C7" stop-opacity="0.6" />
+      <stop offset="70%" stop-color="#3B82F6" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <filter id="favFlare" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Base Dark Shield -->
+  <rect width="128" height="128" rx="28" fill="#0B1120" />
+
+  <!-- Outer Glow Flare -->
+  <circle cx="64" cy="64" r="50" fill="url(#favGlow)" filter="url(#favFlare)" />
+
+  <!-- Segmented Outer Ring -->
+  <circle cx="64" cy="64" r="46" fill="none" stroke="url(#chromeRing)" stroke-width="4.5" stroke-dasharray="24 8" />
+  <circle cx="64" cy="64" r="42" fill="none" stroke="#1E293B" stroke-width="2" />
+
+  <!-- Gear Iris Teeth -->
+  <circle cx="64" cy="64" r="36" fill="none" stroke="#38BDF8" stroke-width="2" stroke-dasharray="3 5" opacity="0.9" />
+
+  <!-- Core Reactor Wall -->
+  <circle cx="64" cy="64" r="32" fill="url(#favReactorCore)" stroke="#60A5FA" stroke-width="1.8" />
+
+  <!-- Concentric Rings -->
+  <circle cx="64" cy="64" r="24" fill="none" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="10 6" opacity="0.85" />
+  <circle cx="64" cy="64" r="16" fill="none" stroke="#A78BFA" stroke-width="1.2" stroke-dasharray="4 3" />
+  <circle cx="64" cy="64" r="10" fill="none" stroke="#00F5FF" stroke-width="1.5" />
+
+  <!-- Stator Crosshairs -->
+  <line x1="32" y1="64" x2="48" y2="64" stroke="#00E5FF" stroke-width="1.2" />
+  <line x1="80" y1="64" x2="96" y2="64" stroke="#00E5FF" stroke-width="1.2" />
+  <line x1="64" y1="32" x2="64" y2="48" stroke="#00E5FF" stroke-width="1.2" />
+  <line x1="64" y1="80" x2="64" y2="96" stroke="#00E5FF" stroke-width="1.2" />
+
+  <!-- Core Light Spark -->
+  <circle cx="64" cy="64" r="6" fill="#FFFFFF" filter="url(#favFlare)" />
+  <circle cx="64" cy="64" r="3" fill="#67E8F9" />
+</svg>

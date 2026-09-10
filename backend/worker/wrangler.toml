@@ -1,0 +1,8 @@
+name = "evitron26-backend"
+main = "index.ts"
+compatibility_date = "2024-01-01"
+
+[vars]
+RAZORPAY_KEY_ID = "rzp_test_your_key_id"
+# Secret keys should be set via: npx wrangler secret put RAZORPAY_KEY_SECRET
+# and npx wrangler secret put RAZORPAY_WEBHOOK_SECRET

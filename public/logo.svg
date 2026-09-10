@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 240" fill="none" width="100%" height="100%">
+  <defs>
+    <!-- Metallic Bevel Linear Gradients -->
+    <linearGradient id="metalTop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E0F2FE" />
+      <stop offset="25%" stop-color="#7DD3FC" />
+      <stop offset="55%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+
+    <linearGradient id="metalBevel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="30%" stop-color="#1E3A8A" />
+      <stop offset="70%" stop-color="#4C1D95" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+
+    <linearGradient id="chromeStroke" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="20%" stop-color="#FFFFFF" />
+      <stop offset="40%" stop-color="#60A5FA" />
+      <stop offset="70%" stop-color="#A78BFA" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+
+    <linearGradient id="yearGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="35%" stop-color="#60A5FA" />
+      <stop offset="70%" stop-color="#818CF8" />
+      <stop offset="100%" stop-color="#C084FC" />
+    </linearGradient>
+
+    <!-- Reactor Core Radial Gradients -->
+    <radialGradient id="reactorCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="15%" stop-color="#67E8F9" />
+      <stop offset="40%" stop-color="#0284C7" />
+      <stop offset="75%" stop-color="#1E1B4B" />
+      <stop offset="100%" stop-color="#0B0F19" />
+    </radialGradient>
+
+    <radialGradient id="reactorGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00F5FF" stop-opacity="0.9" />
+      <stop offset="30%" stop-color="#0284C7" stop-opacity="0.6" />
+      <stop offset="60%" stop-color="#3B82F6" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Filters for Depth and Glow -->
+    <filter id="coreFlare" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="bevelShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#020617" flood-opacity="0.75" />
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#38BDF8" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <g filter="url(#bevelShadow)">
+    <!-- ==================== LETTER E ==================== -->
+    <g transform="translate(15, 30)">
+      <!-- Outer Bevel Base -->
+      <polygon points="12,0 95,0 92,24 44,24 44,46 84,46 80,68 44,68 44,92 95,92 90,116 12,116 0,104 0,12" 
+               fill="url(#metalBevel)" stroke="url(#chromeStroke)" stroke-width="2" stroke-linejoin="round" />
+      <!-- Top Metallic Inset -->
+      <polygon points="16,6 86,6 83,20 40,20 40,50 78,50 74,64 40,64 40,96 88,96 84,110 16,110 6,100 6,16" 
+               fill="url(#metalTop)" />
+      <!-- Tech Circuit Inlay -->
+      <path d="M 22,28 L 30,28 L 34,32 L 68,32 M 34,58 L 62,58 M 22,82 L 30,82 L 34,86 L 70,86" 
+            stroke="#00E5FF" stroke-width="1.8" stroke-linecap="round" opacity="0.8" />
+    </g>
+
+    <!-- ==================== LETTER V ==================== -->
+    <g transform="translate(122, 30)">
+      <polygon points="0,0 34,0 58,74 82,0 116,0 74,116 42,116" 
+               fill="url(#metalBevel)" stroke="url(#chromeStroke)" stroke-width="2" stroke-linejoin="round" />
+      <polygon points="8,6 28,6 54,82 62,82 88,6 108,6 70,110 46,110" 
+               fill="url(#metalTop)" />
+      <path d="M 20,18 L 54,92 M 96,18 L 62,92" 
+            stroke="#00E5FF" stroke-width="1.8" stroke-linecap="round" opacity="0.75" />
+    </g>
+
+    <!-- ==================== LETTER I ==================== -->
+    <g transform="translate(245, 30)">
+      <polygon points="4,0 48,0 48,22 36,22 36,94 48,94 48,116 4,116 4,94 16,94 16,22 4,22" 
+               fill="url(#metalBevel)" stroke="url(#chromeStroke)" stroke-width="2" stroke-linejoin="round" />
+      <polygon points="10,6 42,6 42,18 30,18 30,98 42,98 42,110 10,110 10,98 22,98 22,18 10,18" 
+               fill="url(#metalTop)" />
+      <line x1="26" y1="24" x2="26" y2="92" stroke="#00E5FF" stroke-width="1.8" stroke-linecap="round" opacity="0.8" />
+    </g>
+
+    <!-- ==================== LETTER T ==================== -->
+    <g transform="translate(305, 30)">
+      <polygon points="0,0 96,0 96,24 62,24 62,116 34,116 34,24 0,24" 
+               fill="url(#metalBevel)" stroke="url(#chromeStroke)" stroke-width="2" stroke-linejoin="round" />
+      <polygon points="6,6 90,6 90,18 56,18 56,110 40,110 40,18 6,18" 
+               fill="url(#metalTop)" />
+      <path d="M 16,12 L 80,12 M 48,24 L 48,102" stroke="#00E5FF" stroke-width="1.8" stroke-linecap="round" opacity="0.8" />
+    </g>
+
+    <!-- ==================== LETTER R ==================== -->
+    <g transform="translate(410, 30)">
+      <polygon points="0,0 68,0 88,24 88,52 68,70 94,116 62,116 40,72 28,72 28,116 0,116" 
+               fill="url(#metalBevel)" stroke="url(#chromeStroke)" stroke-width="2" stroke-linejoin="round" />
+      <polygon points="6,6 64,6 80,26 80,48 64,66 38,66 22,66 22,110 6,110" 
+               fill="url(#metalTop)" />
+      <!-- Inner cutout -->
+      <polygon points="26,22 56,22 64,36 56,48 26,48" fill="#0B1120" stroke="url(#chromeStroke)" stroke-width="1.5" />
+      <!-- Cyber Circuit -->
+      <path d="M 14,24 L 14,98 M 60,82 L 82,110" stroke="#00E5FF" stroke-width="1.8" stroke-linecap="round" opacity="0.75" />
+    </g>
+
+    <!-- ==================== LETTER O (FUSION REACTOR CORE) ==================== -->
+    <g transform="translate(535, 88)">
+      <!-- Outer Glow Flare -->
+      <circle cx="0" cy="0" r="66" fill="url(#reactorGlow)" filter="url(#coreFlare)" />
+
+      <!-- Outer Segmented Chassis Ring -->
+      <circle cx="0" cy="0" r="58" fill="none" stroke="url(#chromeStroke)" stroke-width="6" stroke-dasharray="32 10" />
+      <circle cx="0" cy="0" r="54" fill="none" stroke="#1E293B" stroke-width="3" />
+
+      <!-- High-Tech Gear / Iris Notches -->
+      <circle cx="0" cy="0" r="46" fill="none" stroke="#38BDF8" stroke-width="2.5" stroke-dasharray="4 6" opacity="0.9" />
+
+      <!-- Dark Chamber Wall -->
+      <circle cx="0" cy="0" r="42" fill="url(#reactorCore)" stroke="#60A5FA" stroke-width="2" />
+
+      <!-- Concentric Accelerator Rings -->
+      <circle cx="0" cy="0" r="32" fill="none" stroke="#38BDF8" stroke-width="1.8" stroke-dasharray="14 8" opacity="0.85" />
+      <circle cx="0" cy="0" r="22" fill="none" stroke="#A78BFA" stroke-width="1.5" stroke-dasharray="6 4" />
+      <circle cx="0" cy="0" r="14" fill="none" stroke="#00F5FF" stroke-width="2" />
+
+      <!-- Radial Targeting / Stator Crosshairs -->
+      <line x1="-42" y1="0" x2="-22" y2="0" stroke="#00E5FF" stroke-width="1.5" />
+      <line x1="22" y1="0" x2="42" y2="0" stroke="#00E5FF" stroke-width="1.5" />
+      <line x1="0" y1="-42" x2="0" y2="-22" stroke="#00E5FF" stroke-width="1.5" />
+      <line x1="0" y1="22" x2="0" y2="42" stroke="#00E5FF" stroke-width="1.5" />
+
+      <!-- Glowing Singularity / Energy Spark -->
+      <circle cx="0" cy="0" r="8" fill="#FFFFFF" filter="url(#coreFlare)" />
+      <circle cx="0" cy="0" r="4" fill="#67E8F9" />
+    </g>
+
+    <!-- ==================== LETTER N ==================== -->
+    <g transform="translate(605, 30)">
+      <polygon points="0,0 28,0 62,80 62,0 88,0 88,116 60,116 26,36 26,116 0,116" 
+               fill="url(#metalBevel)" stroke="url(#chromeStroke)" stroke-width="2" stroke-linejoin="round" />
+      <polygon points="6,6 22,6 58,88 68,88 68,6 82,6 82,110 66,110 30,28 20,28 20,110 6,110" 
+               fill="url(#metalTop)" />
+      <path d="M 12,20 L 12,96 M 74,20 L 74,96 M 28,42 L 58,98" stroke="#00E5FF" stroke-width="1.8" stroke-linecap="round" opacity="0.75" />
+    </g>
+
+    <!-- ==================== SUB-MARK: 2K26 ==================== -->
+    <g transform="translate(230, 165)">
+      <!-- Cyber Underline Grid Bracket -->
+      <path d="M -15,22 L 255,22" stroke="url(#chromeStroke)" stroke-width="1.5" stroke-dasharray="8 6" opacity="0.6" />
+      <circle cx="-15" cy="22" r="2.5" fill="#38BDF8" />
+      <circle cx="255" cy="22" r="2.5" fill="#A855F7" />
+
+      <!-- Text "2K26" rendered in beveled techno vectors -->
+      <text x="120" y="38" 
+            text-anchor="middle" 
+            font-family="'Space Grotesk', 'Plus Jakarta Sans', system-ui, sans-serif" 
+            font-size="46" 
+            font-weight="900" 
+            letter-spacing="10" 
+            fill="url(#yearGradient)" 
+            stroke="url(#chromeStroke)" 
+            stroke-width="1.5" 
+            filter="url(#bevelShadow)">
+        2K26
+      </text>
+
+      <!-- Glow Accent Lines on 2K26 -->
+      <path d="M 30,48 L 210,48" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" opacity="0.8" />
+      <path d="M 70,52 L 170,52" stroke="#A78BFA" stroke-width="1.5" stroke-linecap="round" opacity="0.6" />
+    </g>
+  </g>
+</svg>

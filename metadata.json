@@ -1,0 +1,6 @@
+{
+  "name": "EVITRON 2K26 - National Level Technical Symposium",
+  "description": "Official website and registration portal for EVITRON 2K26 National Level Technical Symposium, Department of Electronics and Communication Engineering, Mahendra Engineering College.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
